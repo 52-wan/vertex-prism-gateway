@@ -1,0 +1,27 @@
+# Compiled binaries and build outputs
+/gateway
+/vertex-prism-gateway
+*.exe
+*.out
+*.test
+bin/
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local SQLite database files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite*
+
+# Frontend dependencies and build artifacts
+web/node_modules/
+web/dist/
+
+# OS / Editor files
+.DS_Store
